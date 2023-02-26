@@ -11,7 +11,7 @@
 
         <div class="big-title">
           <div @click="snapshotClick">
-            <dv-decoration-11 style="width:300px;height:60px;">可视化大屏（生成截图）</dv-decoration-11>
+            <dv-decoration-11 style="width:300px;height:60px;">可视化大屏（点击生成截图）</dv-decoration-11>
           </div>
         </div>
         <div class="top-right">
@@ -169,6 +169,7 @@ const toImage = () => {
   color: #fff;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .top-left {
